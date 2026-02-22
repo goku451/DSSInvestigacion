@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <title>Editar Producto</title>
@@ -43,9 +42,7 @@
             </a>
 
         </form>
-
     </div>
 
 </body>
-
 </html>

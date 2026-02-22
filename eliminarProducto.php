@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <title>Eliminar Producto</title>
@@ -32,5 +31,4 @@
     </div>
 
 </body>
-
 </html>
