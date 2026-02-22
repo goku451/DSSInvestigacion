@@ -30,6 +30,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         }
     }
+
+    foreach ($_SESSION['productos'] as &$p) {
+        if ($p['id'] == $id) {
+
+            if ($p['stock'] < $cantidad) {
+                $errores[] = "Stock insuficiente";
+            } else {
+                $p['stock'] -= $cantidad;
+                $mensaje = "Venta registrada correctamente";
+            }
+
+            break;
+        }
+    }
+    unset($p);
 }
 ?>
 
